@@ -3,12 +3,12 @@ Příkazy použité v terminálu
 1) Inicializace lokálního repozitáře
 git init -b main
 
-2) Přidání souborů a první commit
-git add index.html zpracovani.php prikazy.txt
+2) Přidání souborů a commit
+git add ukol-formular/
 git commit -m "Formulář a zpracování PHP"
 
 3) Propojení se vzdáleným repozitářem na GitHubu
-git remote add origin https://github.com/Deemy99/ukol-formular.git
+git remote add origin https://github.com/Deemy99/domaci-ukoly.git
 
 4) Push souborů na vzdálený repozitář
 git push -u origin main
